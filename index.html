@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>happy happy joy joy</title>
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<img class="bg1" src="images/bg4.png">
+<div id="app" @mousemove="onMouseMoved" @touchmove="onMouseMoved">
+  <div class="container" :style="rotation">
+    <img class="bg" src="images/1.png">
+    <img class="water front">
+    <img class="side left" src="images/4.png">
+    <img class="side right" src="images/3.png">
+    <img class="water top">
+    <img class="ground" src="images/2.png">
+  </div>
+  <img src="images/text.png" class="text" style="z-index: 1000;">
+</div>
+
+<!-- partial -->
+  <script src='https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
